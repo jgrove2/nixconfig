@@ -11,7 +11,7 @@
 
 		# CLI
 		git
-
+		gh
 		# Hyprland
 		rofi-wayland
 		waybar
