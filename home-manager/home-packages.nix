@@ -12,6 +12,12 @@
 		# CLI
 		git
 		gh
+		neovim
+		gnumake
+		unzip
+		libgcc
+		wl-clipboard
+
 		# Hyprland
 		rofi-wayland
 		waybar
@@ -22,5 +28,9 @@
 		# Font
 		iosevka
 		(nerdfonts.override { fonts = [ "Iosevka" ]; })
+
+		# Programming Languages
+		go
+		nodejs_23
 	];
 }
