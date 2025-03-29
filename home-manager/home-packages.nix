@@ -20,6 +20,7 @@
 		fd
 		ripgrep
 		libgcc
+		tmux
 
 		# Hyprland
 		rofi-wayland
@@ -39,5 +40,6 @@
 
 		# System
 		pavucontrol
+		nix-ld
 	];
 }
