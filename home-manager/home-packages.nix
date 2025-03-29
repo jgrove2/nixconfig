@@ -15,8 +15,11 @@
 		neovim
 		gnumake
 		unzip
-		libgcc
+		gcc
 		wl-clipboard
+		fd
+		ripgrep
+		libgcc
 
 		# Hyprland
 		rofi-wayland
@@ -32,5 +35,8 @@
 		# Programming Languages
 		go
 		nodejs_23
+
+		# System
+		pavucontrol
 	];
 }

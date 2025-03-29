@@ -21,6 +21,8 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+
+
   # Set your time zone.
   time.timeZone = "America/New_York";
 
@@ -71,13 +73,13 @@
 
   security.rtkit.enable = true;
   services.pipewire = {
-    enable = true;
+    enable = true; # if not already enabled
     alsa.enable = true;
     alsa.support32Bit = true;
     pulse.enable = true;
-    jack.enable = true;
+    # If you want to use JACK applications, uncomment this
+    #jack.enable = true;
   };
-
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
@@ -112,6 +114,8 @@
   };
 
   services.blueman.enable = true;
+
+  programs.light.enable = true;
 
   imports = [
 	./hardware-configuration.nix
