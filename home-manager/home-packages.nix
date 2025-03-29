@@ -35,6 +35,7 @@
 		# Programming Languages
 		go
 		nodejs_23
+		lua
 
 		# System
 		pavucontrol
