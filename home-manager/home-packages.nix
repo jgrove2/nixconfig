@@ -8,6 +8,7 @@
 		kitty
 		ghostty
 		bitwarden-desktop
+		requestly
 
 		# CLI
 		git
